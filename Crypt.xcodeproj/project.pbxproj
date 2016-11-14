@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DA53AC71DDA460D00278F68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA53AC61DDA460D00278F68 /* AppDelegate.swift */; };
+		6DA53AC91DDA460D00278F68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA53AC81DDA460D00278F68 /* ViewController.swift */; };
+		6DA53ACC1DDA460D00278F68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA53ACA1DDA460D00278F68 /* Main.storyboard */; };
+		6DA53ACF1DDA460D00278F68 /* Crypt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DA53ACD1DDA460D00278F68 /* Crypt.xcdatamodeld */; };
+		6DA53AD11DDA460D00278F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA53AD01DDA460D00278F68 /* Assets.xcassets */; };
+		6DA53AD41DDA460D00278F68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA53AD21DDA460D00278F68 /* LaunchScreen.storyboard */; };
+		6DA53ADF1DDA460D00278F68 /* CryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA53ADE1DDA460D00278F68 /* CryptTests.swift */; };
+		6DA53AEA1DDA460D00278F68 /* CryptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA53AE91DDA460D00278F68 /* CryptUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DA53ADB1DDA460D00278F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA53ABB1DDA460D00278F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA53AC21DDA460D00278F68;
+			remoteInfo = Crypt;
+		};
+		6DA53AE61DDA460D00278F68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA53ABB1DDA460D00278F68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA53AC21DDA460D00278F68;
+			remoteInfo = Crypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DA53AC31DDA460D00278F68 /* Crypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA53AC61DDA460D00278F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DA53AC81DDA460D00278F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DA53ACB1DDA460D00278F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DA53ACE1DDA460D00278F68 /* Crypt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Crypt.xcdatamodel; sourceTree = "<group>"; };
+		6DA53AD01DDA460D00278F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA53AD31DDA460D00278F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DA53AD51DDA460D00278F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA53ADA1DDA460D00278F68 /* CryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA53ADE1DDA460D00278F68 /* CryptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptTests.swift; sourceTree = "<group>"; };
+		6DA53AE01DDA460D00278F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA53AE51DDA460D00278F68 /* CryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA53AE91DDA460D00278F68 /* CryptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptUITests.swift; sourceTree = "<group>"; };
+		6DA53AEB1DDA460D00278F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DA53AC01DDA460D00278F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA53AD71DDA460D00278F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA53AE21DDA460D00278F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DA53ABA1DDA460D00278F68 = {
+			isa = PBXGroup;
+			children = (
+				6DA53AC51DDA460D00278F68 /* Crypt */,
+				6DA53ADD1DDA460D00278F68 /* CryptTests */,
+				6DA53AE81DDA460D00278F68 /* CryptUITests */,
+				6DA53AC41DDA460D00278F68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA53AC41DDA460D00278F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA53AC31DDA460D00278F68 /* Crypt.app */,
+				6DA53ADA1DDA460D00278F68 /* CryptTests.xctest */,
+				6DA53AE51DDA460D00278F68 /* CryptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA53AC51DDA460D00278F68 /* Crypt */ = {
+			isa = PBXGroup;
+			children = (
+				6DA53AC61DDA460D00278F68 /* AppDelegate.swift */,
+				6DA53AC81DDA460D00278F68 /* ViewController.swift */,
+				6DA53ACA1DDA460D00278F68 /* Main.storyboard */,
+				6DA53AD01DDA460D00278F68 /* Assets.xcassets */,
+				6DA53AD21DDA460D00278F68 /* LaunchScreen.storyboard */,
+				6DA53AD51DDA460D00278F68 /* Info.plist */,
+				6DA53ACD1DDA460D00278F68 /* Crypt.xcdatamodeld */,
+			);
+			path = Crypt;
+			sourceTree = "<group>";
+		};
+		6DA53ADD1DDA460D00278F68 /* CryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA53ADE1DDA460D00278F68 /* CryptTests.swift */,
+				6DA53AE01DDA460D00278F68 /* Info.plist */,
+			);
+			path = CryptTests;
+			sourceTree = "<group>";
+		};
+		6DA53AE81DDA460D00278F68 /* CryptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA53AE91DDA460D00278F68 /* CryptUITests.swift */,
+				6DA53AEB1DDA460D00278F68 /* Info.plist */,
+			);
+			path = CryptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DA53AC21DDA460D00278F68 /* Crypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA53AEE1DDA460D00278F68 /* Build configuration list for PBXNativeTarget "Crypt" */;
+			buildPhases = (
+				6DA53ABF1DDA460D00278F68 /* Sources */,
+				6DA53AC01DDA460D00278F68 /* Frameworks */,
+				6DA53AC11DDA460D00278F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypt;
+			productName = Crypt;
+			productReference = 6DA53AC31DDA460D00278F68 /* Crypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DA53AD91DDA460D00278F68 /* CryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA53AF11DDA460D00278F68 /* Build configuration list for PBXNativeTarget "CryptTests" */;
+			buildPhases = (
+				6DA53AD61DDA460D00278F68 /* Sources */,
+				6DA53AD71DDA460D00278F68 /* Frameworks */,
+				6DA53AD81DDA460D00278F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA53ADC1DDA460D00278F68 /* PBXTargetDependency */,
+			);
+			name = CryptTests;
+			productName = CryptTests;
+			productReference = 6DA53ADA1DDA460D00278F68 /* CryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DA53AE41DDA460D00278F68 /* CryptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA53AF41DDA460D00278F68 /* Build configuration list for PBXNativeTarget "CryptUITests" */;
+			buildPhases = (
+				6DA53AE11DDA460D00278F68 /* Sources */,
+				6DA53AE21DDA460D00278F68 /* Frameworks */,
+				6DA53AE31DDA460D00278F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA53AE71DDA460D00278F68 /* PBXTargetDependency */,
+			);
+			name = CryptUITests;
+			productName = CryptUITests;
+			productReference = 6DA53AE51DDA460D00278F68 /* CryptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA53ABB1DDA460D00278F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Rasmus Wejlgaard";
+				TargetAttributes = {
+					6DA53AC21DDA460D00278F68 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQ989C5744;
+						ProvisioningStyle = Automatic;
+					};
+					6DA53AD91DDA460D00278F68 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQ989C5744;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DA53AC21DDA460D00278F68;
+					};
+					6DA53AE41DDA460D00278F68 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YQ989C5744;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6DA53AC21DDA460D00278F68;
+					};
+				};
+			};
+			buildConfigurationList = 6DA53ABE1DDA460D00278F68 /* Build configuration list for PBXProject "Crypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA53ABA1DDA460D00278F68;
+			productRefGroup = 6DA53AC41DDA460D00278F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA53AC21DDA460D00278F68 /* Crypt */,
+				6DA53AD91DDA460D00278F68 /* CryptTests */,
+				6DA53AE41DDA460D00278F68 /* CryptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DA53AC11DDA460D00278F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA53AD41DDA460D00278F68 /* LaunchScreen.storyboard in Resources */,
+				6DA53AD11DDA460D00278F68 /* Assets.xcassets in Resources */,
+				6DA53ACC1DDA460D00278F68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA53AD81DDA460D00278F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA53AE31DDA460D00278F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DA53ABF1DDA460D00278F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA53AC91DDA460D00278F68 /* ViewController.swift in Sources */,
+				6DA53AC71DDA460D00278F68 /* AppDelegate.swift in Sources */,
+				6DA53ACF1DDA460D00278F68 /* Crypt.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA53AD61DDA460D00278F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA53ADF1DDA460D00278F68 /* CryptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA53AE11DDA460D00278F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA53AEA1DDA460D00278F68 /* CryptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DA53ADC1DDA460D00278F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA53AC21DDA460D00278F68 /* Crypt */;
+			targetProxy = 6DA53ADB1DDA460D00278F68 /* PBXContainerItemProxy */;
+		};
+		6DA53AE71DDA460D00278F68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA53AC21DDA460D00278F68 /* Crypt */;
+			targetProxy = 6DA53AE61DDA460D00278F68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DA53ACA1DDA460D00278F68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA53ACB1DDA460D00278F68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DA53AD21DDA460D00278F68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA53AD31DDA460D00278F68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DA53AEC1DDA460D00278F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DA53AED1DDA460D00278F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA53AEF1DDA460D00278F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ989C5744;
+				INFOPLIST_FILE = Crypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwejlgaard.Crypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6DA53AF01DDA460D00278F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YQ989C5744;
+				INFOPLIST_FILE = Crypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwejlgaard.Crypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6DA53AF21DDA460D00278F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ989C5744;
+				INFOPLIST_FILE = CryptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwejlgaard.CryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypt.app/Crypt";
+			};
+			name = Debug;
+		};
+		6DA53AF31DDA460D00278F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YQ989C5744;
+				INFOPLIST_FILE = CryptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwejlgaard.CryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypt.app/Crypt";
+			};
+			name = Release;
+		};
+		6DA53AF51DDA460D00278F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YQ989C5744;
+				INFOPLIST_FILE = CryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwejlgaard.CryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Crypt;
+			};
+			name = Debug;
+		};
+		6DA53AF61DDA460D00278F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YQ989C5744;
+				INFOPLIST_FILE = CryptUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rwejlgaard.CryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Crypt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA53ABE1DDA460D00278F68 /* Build configuration list for PBXProject "Crypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA53AEC1DDA460D00278F68 /* Debug */,
+				6DA53AED1DDA460D00278F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA53AEE1DDA460D00278F68 /* Build configuration list for PBXNativeTarget "Crypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA53AEF1DDA460D00278F68 /* Debug */,
+				6DA53AF01DDA460D00278F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DA53AF11DDA460D00278F68 /* Build configuration list for PBXNativeTarget "CryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA53AF21DDA460D00278F68 /* Debug */,
+				6DA53AF31DDA460D00278F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DA53AF41DDA460D00278F68 /* Build configuration list for PBXNativeTarget "CryptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA53AF51DDA460D00278F68 /* Debug */,
+				6DA53AF61DDA460D00278F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DA53ACD1DDA460D00278F68 /* Crypt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DA53ACE1DDA460D00278F68 /* Crypt.xcdatamodel */,
+			);
+			currentVersion = 6DA53ACE1DDA460D00278F68 /* Crypt.xcdatamodel */;
+			path = Crypt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DA53ABB1DDA460D00278F68 /* Project object */;
+}
